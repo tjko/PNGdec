@@ -21,7 +21,7 @@
 //
 #ifndef __PNGDEC__
 #define __PNGDEC__
-#if defined( __MACH__ ) || defined( __LINUX__ ) || defined( __MCUXPRESSO )
+#ifndef ARDUINO
 #include <stdlib.h>
 #include <string.h>
 #include <stdint.h>
